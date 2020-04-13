@@ -3,27 +3,85 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		514F28F2940B5BF2D8C50E69 /* Pods_TrackEnsure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0993983787AA40D6F898EC18 /* Pods_TrackEnsure.framework */; };
+		7021BBD724449E3600EA7973 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7021BBD624449E3600EA7973 /* NetworkManager.swift */; };
+		7021BBD92444C62600EA7973 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7021BBD82444C62600EA7973 /* README.md */; };
+		7049684A2440AE3B00D43769 /* NewEditStationViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704968492440AE3B00D43769 /* NewEditStationViewControllerViewModel.swift */; };
+		7049684C2440AE4E00D43769 /* NewEditStationViewControllerViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7049684B2440AE4E00D43769 /* NewEditStationViewControllerViewModelType.swift */; };
+		704968502440C3DA00D43769 /* StatisticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7049684F2440C3DA00D43769 /* StatisticViewController.swift */; };
+		704968522440FEC900D43769 /* StatisticViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704968512440FEC900D43769 /* StatisticViewControllerViewModel.swift */; };
+		704968542440FEDA00D43769 /* StatisticViewControllerViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704968532440FEDA00D43769 /* StatisticViewControllerViewModelType.swift */; };
+		704968562440FF5000D43769 /* StatisticTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704968552440FF5000D43769 /* StatisticTableViewCell.swift */; };
+		704968582440FF5A00D43769 /* StatisticTableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704968572440FF5A00D43769 /* StatisticTableViewCellViewModel.swift */; };
+		7049685A2440FF6E00D43769 /* StatisticTableViewCellViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704968592440FF6E00D43769 /* StatisticTableViewCellViewModelType.swift */; };
+		707E9D862442376B00507351 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 707E9D852442376B00507351 /* GoogleService-Info.plist */; };
+		707E9D882442481000507351 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707E9D872442481000507351 /* FirebaseManager.swift */; };
+		707E9D8A2442525000507351 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707E9D892442525000507351 /* User.swift */; };
 		70C51D60243DFF6F009D1529 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C51D5F243DFF6F009D1529 /* AppDelegate.swift */; };
 		70C51D62243DFF6F009D1529 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C51D61243DFF6F009D1529 /* SceneDelegate.swift */; };
-		70C51D64243DFF6F009D1529 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C51D63243DFF6F009D1529 /* ViewController.swift */; };
+		70C51D64243DFF6F009D1529 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C51D63243DFF6F009D1529 /* MainViewController.swift */; };
 		70C51D67243DFF70009D1529 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70C51D65243DFF70009D1529 /* Main.storyboard */; };
 		70C51D69243DFF71009D1529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70C51D68243DFF71009D1529 /* Assets.xcassets */; };
 		70C51D6C243DFF71009D1529 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70C51D6A243DFF71009D1529 /* LaunchScreen.storyboard */; };
+		70C825FC243F3C9200C9DB44 /* NewEditStationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C825FB243F3C9200C9DB44 /* NewEditStationViewController.swift */; };
+		70C825FE243F693D00C9DB44 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C825FD243F693D00C9DB44 /* Extensions.swift */; };
+		70C82602243F991600C9DB44 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C82601243F991600C9DB44 /* LocationManager.swift */; };
+		70D1CC7D2443657B00473AD4 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D1CC7C2443657B00473AD4 /* Reachability.swift */; };
+		70DF3940243E1185008EFA03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DF393F243E1185008EFA03 /* ViewController.swift */; };
+		70DF3942243E150F008EFA03 /* StationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DF3941243E150F008EFA03 /* StationTableViewController.swift */; };
+		70DF3945243E18B4008EFA03 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DF3944243E18B4008EFA03 /* Storage.swift */; };
+		70DF3948243E1911008EFA03 /* GasStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DF3947243E1911008EFA03 /* GasStation.swift */; };
+		70DF394A243E1ED2008EFA03 /* TypeOfPetrol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DF3949243E1ED2008EFA03 /* TypeOfPetrol.swift */; };
+		70DF394E243E341E008EFA03 /* StationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DF394D243E341E008EFA03 /* StationTableViewCell.swift */; };
+		70DF3951243E354D008EFA03 /* StationTableViewCellViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DF3950243E354D008EFA03 /* StationTableViewCellViewModelType.swift */; };
+		70DF3953243E35A9008EFA03 /* StationTableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DF3952243E35A9008EFA03 /* StationTableViewCellViewModel.swift */; };
+		70DF3955243E3B59008EFA03 /* StationTableViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DF3954243E3B59008EFA03 /* StationTableViewControllerViewModel.swift */; };
+		70DF3957243E3B72008EFA03 /* StationTableViewControllerViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70DF3956243E3B72008EFA03 /* StationTableViewControllerViewModelType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0993983787AA40D6F898EC18 /* Pods_TrackEnsure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrackEnsure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		246AE1C325A821B88DFCEE95 /* Pods-TrackEnsure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackEnsure.debug.xcconfig"; path = "Target Support Files/Pods-TrackEnsure/Pods-TrackEnsure.debug.xcconfig"; sourceTree = "<group>"; };
+		67A5B4BEAB061F84E7543035 /* Pods-TrackEnsure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrackEnsure.release.xcconfig"; path = "Target Support Files/Pods-TrackEnsure/Pods-TrackEnsure.release.xcconfig"; sourceTree = "<group>"; };
+		7021BBD624449E3600EA7973 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		7021BBD82444C62600EA7973 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		704968492440AE3B00D43769 /* NewEditStationViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEditStationViewControllerViewModel.swift; sourceTree = "<group>"; };
+		7049684B2440AE4E00D43769 /* NewEditStationViewControllerViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEditStationViewControllerViewModelType.swift; sourceTree = "<group>"; };
+		7049684F2440C3DA00D43769 /* StatisticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticViewController.swift; sourceTree = "<group>"; };
+		704968512440FEC900D43769 /* StatisticViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticViewControllerViewModel.swift; sourceTree = "<group>"; };
+		704968532440FEDA00D43769 /* StatisticViewControllerViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticViewControllerViewModelType.swift; sourceTree = "<group>"; };
+		704968552440FF5000D43769 /* StatisticTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticTableViewCell.swift; sourceTree = "<group>"; };
+		704968572440FF5A00D43769 /* StatisticTableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticTableViewCellViewModel.swift; sourceTree = "<group>"; };
+		704968592440FF6E00D43769 /* StatisticTableViewCellViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticTableViewCellViewModelType.swift; sourceTree = "<group>"; };
+		707E9D852442376B00507351 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		707E9D872442481000507351 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		707E9D892442525000507351 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		70C51D5C243DFF6F009D1529 /* TrackEnsure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackEnsure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70C51D5F243DFF6F009D1529 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70C51D61243DFF6F009D1529 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		70C51D63243DFF6F009D1529 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		70C51D63243DFF6F009D1529 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		70C51D66243DFF70009D1529 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70C51D68243DFF71009D1529 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70C51D6B243DFF71009D1529 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70C51D6D243DFF71009D1529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70C825FB243F3C9200C9DB44 /* NewEditStationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEditStationViewController.swift; sourceTree = "<group>"; };
+		70C825FD243F693D00C9DB44 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		70C82601243F991600C9DB44 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		70D1CC7C2443657B00473AD4 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		70DF393F243E1185008EFA03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		70DF3941243E150F008EFA03 /* StationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationTableViewController.swift; sourceTree = "<group>"; };
+		70DF3944243E18B4008EFA03 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		70DF3947243E1911008EFA03 /* GasStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasStation.swift; sourceTree = "<group>"; };
+		70DF3949243E1ED2008EFA03 /* TypeOfPetrol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeOfPetrol.swift; sourceTree = "<group>"; };
+		70DF394D243E341E008EFA03 /* StationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationTableViewCell.swift; sourceTree = "<group>"; };
+		70DF3950243E354D008EFA03 /* StationTableViewCellViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationTableViewCellViewModelType.swift; sourceTree = "<group>"; };
+		70DF3952243E35A9008EFA03 /* StationTableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationTableViewCellViewModel.swift; sourceTree = "<group>"; };
+		70DF3954243E3B59008EFA03 /* StationTableViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationTableViewControllerViewModel.swift; sourceTree = "<group>"; };
+		70DF3956243E3B72008EFA03 /* StationTableViewControllerViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationTableViewControllerViewModelType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +89,66 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				514F28F2940B5BF2D8C50E69 /* Pods_TrackEnsure.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0203DCC34D03333355ACD7C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0993983787AA40D6F898EC18 /* Pods_TrackEnsure.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7049685B2440FF8F00D43769 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				70DF3954243E3B59008EFA03 /* StationTableViewControllerViewModel.swift */,
+				704968492440AE3B00D43769 /* NewEditStationViewControllerViewModel.swift */,
+				704968512440FEC900D43769 /* StatisticViewControllerViewModel.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7049685C2440FF9900D43769 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				70DF3952243E35A9008EFA03 /* StationTableViewCellViewModel.swift */,
+				704968572440FF5A00D43769 /* StatisticTableViewCellViewModel.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		7049685D2440FFB800D43769 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				70DF3941243E150F008EFA03 /* StationTableViewController.swift */,
+				70C825FB243F3C9200C9DB44 /* NewEditStationViewController.swift */,
+				7049684F2440C3DA00D43769 /* StatisticViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7049685E2440FFBF00D43769 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				70DF394D243E341E008EFA03 /* StationTableViewCell.swift */,
+				704968552440FF5000D43769 /* StatisticTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		70C51D53243DFF6F009D1529 = {
 			isa = PBXGroup;
 			children = (
 				70C51D5E243DFF6F009D1529 /* TrackEnsure */,
 				70C51D5D243DFF6F009D1529 /* Products */,
+				F9A70909F7813017BEFC0588 /* Pods */,
+				0203DCC34D03333355ACD7C3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +163,85 @@
 		70C51D5E243DFF6F009D1529 /* TrackEnsure */ = {
 			isa = PBXGroup;
 			children = (
+				707E9D852442376B00507351 /* GoogleService-Info.plist */,
+				7021BBD82444C62600EA7973 /* README.md */,
 				70C51D5F243DFF6F009D1529 /* AppDelegate.swift */,
 				70C51D61243DFF6F009D1529 /* SceneDelegate.swift */,
-				70C51D63243DFF6F009D1529 /* ViewController.swift */,
+				70C825FD243F693D00C9DB44 /* Extensions.swift */,
+				70DF394F243E3541008EFA03 /* Protocols */,
+				70DF3943243E18A4008EFA03 /* Managers */,
+				70DF3946243E18F2008EFA03 /* Model */,
+				70C51D63243DFF6F009D1529 /* MainViewController.swift */,
+				70DF393F243E1185008EFA03 /* ViewController.swift */,
+				70DF394C243E33D0008EFA03 /* ViewModel */,
+				70DF394B243E33C6008EFA03 /* View */,
 				70C51D65243DFF70009D1529 /* Main.storyboard */,
 				70C51D68243DFF71009D1529 /* Assets.xcassets */,
 				70C51D6A243DFF71009D1529 /* LaunchScreen.storyboard */,
 				70C51D6D243DFF71009D1529 /* Info.plist */,
 			);
 			path = TrackEnsure;
+			sourceTree = "<group>";
+		};
+		70DF3943243E18A4008EFA03 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				70DF3944243E18B4008EFA03 /* Storage.swift */,
+				707E9D872442481000507351 /* FirebaseManager.swift */,
+				70C82601243F991600C9DB44 /* LocationManager.swift */,
+				707E9D892442525000507351 /* User.swift */,
+				70D1CC7C2443657B00473AD4 /* Reachability.swift */,
+				7021BBD624449E3600EA7973 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		70DF3946243E18F2008EFA03 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				70DF3947243E1911008EFA03 /* GasStation.swift */,
+				70DF3949243E1ED2008EFA03 /* TypeOfPetrol.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		70DF394B243E33C6008EFA03 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7049685D2440FFB800D43769 /* Controller */,
+				7049685E2440FFBF00D43769 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		70DF394C243E33D0008EFA03 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7049685B2440FF8F00D43769 /* Controller */,
+				7049685C2440FF9900D43769 /* Cell */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		70DF394F243E3541008EFA03 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				70DF3956243E3B72008EFA03 /* StationTableViewControllerViewModelType.swift */,
+				70DF3950243E354D008EFA03 /* StationTableViewCellViewModelType.swift */,
+				7049684B2440AE4E00D43769 /* NewEditStationViewControllerViewModelType.swift */,
+				704968532440FEDA00D43769 /* StatisticViewControllerViewModelType.swift */,
+				704968592440FF6E00D43769 /* StatisticTableViewCellViewModelType.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		F9A70909F7813017BEFC0588 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				246AE1C325A821B88DFCEE95 /* Pods-TrackEnsure.debug.xcconfig */,
+				67A5B4BEAB061F84E7543035 /* Pods-TrackEnsure.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +251,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70C51D70243DFF71009D1529 /* Build configuration list for PBXNativeTarget "TrackEnsure" */;
 			buildPhases = (
+				53BD7E98125E463311E3C3F4 /* [CP] Check Pods Manifest.lock */,
 				70C51D58243DFF6F009D1529 /* Sources */,
 				70C51D59243DFF6F009D1529 /* Frameworks */,
 				70C51D5A243DFF6F009D1529 /* Resources */,
+				B33195E43208DDDA052C9D55 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +305,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				70C51D6C243DFF71009D1529 /* LaunchScreen.storyboard in Resources */,
+				707E9D862442376B00507351 /* GoogleService-Info.plist in Resources */,
+				7021BBD92444C62600EA7973 /* README.md in Resources */,
 				70C51D69243DFF71009D1529 /* Assets.xcassets in Resources */,
 				70C51D67243DFF70009D1529 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +314,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		53BD7E98125E463311E3C3F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrackEnsure-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B33195E43208DDDA052C9D55 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrackEnsure/Pods-TrackEnsure-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrackEnsure/Pods-TrackEnsure-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrackEnsure/Pods-TrackEnsure-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		70C51D58243DFF6F009D1529 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70C51D64243DFF6F009D1529 /* ViewController.swift in Sources */,
+				707E9D8A2442525000507351 /* User.swift in Sources */,
+				704968522440FEC900D43769 /* StatisticViewControllerViewModel.swift in Sources */,
+				704968542440FEDA00D43769 /* StatisticViewControllerViewModelType.swift in Sources */,
+				70DF3948243E1911008EFA03 /* GasStation.swift in Sources */,
+				70DF3955243E3B59008EFA03 /* StationTableViewControllerViewModel.swift in Sources */,
+				70D1CC7D2443657B00473AD4 /* Reachability.swift in Sources */,
+				70DF3951243E354D008EFA03 /* StationTableViewCellViewModelType.swift in Sources */,
+				70DF3953243E35A9008EFA03 /* StationTableViewCellViewModel.swift in Sources */,
+				704968502440C3DA00D43769 /* StatisticViewController.swift in Sources */,
+				70C82602243F991600C9DB44 /* LocationManager.swift in Sources */,
+				704968582440FF5A00D43769 /* StatisticTableViewCellViewModel.swift in Sources */,
+				70C51D64243DFF6F009D1529 /* MainViewController.swift in Sources */,
+				70DF394A243E1ED2008EFA03 /* TypeOfPetrol.swift in Sources */,
+				70C825FC243F3C9200C9DB44 /* NewEditStationViewController.swift in Sources */,
 				70C51D60243DFF6F009D1529 /* AppDelegate.swift in Sources */,
+				7049685A2440FF6E00D43769 /* StatisticTableViewCellViewModelType.swift in Sources */,
+				70DF3940243E1185008EFA03 /* ViewController.swift in Sources */,
+				70DF394E243E341E008EFA03 /* StationTableViewCell.swift in Sources */,
+				704968562440FF5000D43769 /* StatisticTableViewCell.swift in Sources */,
+				707E9D882442481000507351 /* FirebaseManager.swift in Sources */,
+				70C825FE243F693D00C9DB44 /* Extensions.swift in Sources */,
+				7049684A2440AE3B00D43769 /* NewEditStationViewControllerViewModel.swift in Sources */,
+				70DF3957243E3B72008EFA03 /* StationTableViewControllerViewModelType.swift in Sources */,
+				70DF3942243E150F008EFA03 /* StationTableViewController.swift in Sources */,
+				7021BBD724449E3600EA7973 /* NetworkManager.swift in Sources */,
+				7049684C2440AE4E00D43769 /* NewEditStationViewControllerViewModelType.swift in Sources */,
 				70C51D62243DFF6F009D1529 /* SceneDelegate.swift in Sources */,
+				70DF3945243E18B4008EFA03 /* Storage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,11 +530,13 @@
 		};
 		70C51D71243DFF71009D1529 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 246AE1C325A821B88DFCEE95 /* Pods-TrackEnsure.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M837Z66HVA;
 				INFOPLIST_FILE = TrackEnsure/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,17 +544,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = artemshpilka.TrackEnsure;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		70C51D72243DFF71009D1529 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67A5B4BEAB061F84E7543035 /* Pods-TrackEnsure.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M837Z66HVA;
 				INFOPLIST_FILE = TrackEnsure/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +564,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = artemshpilka.TrackEnsure;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

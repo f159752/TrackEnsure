@@ -7,14 +7,30 @@
 //
 
 import UIKit
+import XLPagerTabStrip
 
-class ViewController: UIViewController {
+class ViewController: ButtonBarPagerTabStripViewController {
 
     override func viewDidLoad() {
+        self.settings.style.buttonBarBackgroundColor = .systemGray
+        self.settings.style.buttonBarItemTitleColor = .white
+        self.settings.style.buttonBarItemBackgroundColor = .systemGray
+        
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        buttonBarView.selectedBar.backgroundColor = .red
+        buttonBarView.backgroundColor = UIColor.systemGray
+        
+        containerView.isScrollEnabled = false
+        
     }
+    
+    override func viewControllers(for pagerTabStripController: PagerTabStripViewController) -> [UIViewController] {
+        let child1 = StationTableViewController(style: .plain, itemInfo: "Посещенные")
+        let child2 = StatisticViewController(itemInfo: "Статистика")
 
+        return [child1, child2]
+    }
+    
 
 }
-
